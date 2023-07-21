@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media screen and (max-width:570px) {
+    nav {
+        flex-direction: column;
+        padding: 0;
+        box-shadow: none;
+
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .logo {
+        justify-content: center;
+        padding: 50px;
+    }
+
+
+
+    .banner {
+        padding: 0;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+
+    }
+
+    .right {
+        padding-left: 0px;
+    }
+
+    .right img {
+        width: 70%;
+        left: 70px;
+    }
+
+    .left {
+        padding: 30px 0;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .left ul {
+        width: 45%;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+
+
+
+    .wearegamer {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .wearegamer_right {
+        text-align: center;
+        padding: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

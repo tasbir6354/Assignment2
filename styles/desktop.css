@@ -1,0 +1,373 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+p {
+    color: #534C64;
+}
+
+button {
+    padding: 15px;
+    background-color: #FF42A5;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 15px;
+    border-radius: 48px;
+}
+
+
+
+nav {
+    height: 60px;
+    padding: 0 240px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.logo>img {
+    height: 40px;
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+.navigation li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+.banner {
+    display: flex;
+    min-height: 400px;
+    padding-right: 220px;
+}
+
+.left {
+
+    padding: 150px 80px 150px 220px;
+    background-image: url(../images/Group\ 14.png);
+    background-size: contain;
+}
+
+.left h1 {
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+.left h2 {
+    font-size: 60px;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+}
+
+.left ul {
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+.left ul li {
+    list-style: none;
+    margin: 8px;
+}
+
+
+.right img {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    left: 250px;
+}
+
+
+
+
+
+
+
+
+
+.wearegamer {
+    display: flex;
+    min-height: 400px;
+    margin: 100px 0 100px 0;
+    padding: 30px 240px;
+}
+
+.wearegamer_right {
+    padding: 20px 0 20px 150px;
+    text-align: right;
+}
+
+
+.wearegamer_right button {
+    margin: 10px 0 20px 0;
+}
+
+.wearegamer_right p {
+    margin: 20px 0;
+}
+
+.wearegamer_left img {
+    width: 30em;
+    height: 300px;
+
+}
+
+.wearegamer_right h3 {
+    color: #534C64;
+}
+
+.wearegamer_right h2 {
+    color: #534C64;
+    font-weight: 700;
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading h1 {
+    font-size: 30px;
+}
+
+
+.heading p {
+    margin: 20px 0px;
+}
+
+.online_games {
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    padding: 0 220px;
+}
+
+.online_games img,
+.online_games div {
+    height: 300px;
+    width: 245px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.play_game {
+    height: 1300px;
+    padding: 0 240px;
+}
+
+
+.play_gameup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.play_gameupright {
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.imgtwo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 300px;
+    top: 350px;
+}
+
+.imgone {
+    width: 400px;
+    height: 450px;
+}
+
+.play_gameupleft,
+.play_gamedownright {
+    margin: auto 210px;
+}
+
+.play_gameupleft h2,
+.play_gamedownright h2 {
+    text-align: right;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.play_gamedown {
+    display: flex;
+}
+
+
+
+.play_gamedownleft {
+    position: relative;
+    /* relative for rectangle-seventy */
+}
+
+.imgfour {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 300px;
+    top: 330px;
+
+}
+
+.imgthree {
+    width: 400px;
+    height: 435px;
+}
+
+.play_gamedownright h2 {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.game {
+    padding: 50px 240px;
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 300px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.game img {
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+
+.game div {
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+}
+
+.game div:hover {
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+footer {
+    background: #0B0223;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+footer>.logo {
+    margin: 80px 0;
+}
+
+.link ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+footer li {
+    list-style: none;
+}
+
+.icon ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 30px;
+}
+
+.icon i {
+    font-size: 25px;
+}
+
+
+
+.web_link>ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+
+footer p {
+    font-size: 11px;
+
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
